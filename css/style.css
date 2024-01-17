@@ -1,0 +1,31 @@
+#wrap{
+    width: 600px;
+    /* border: 1px solid #666666; */
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #FFFFFF;
+}
+p {
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    color:dimgray;
+}
+.img-box {
+    margin:0 auto;
+    width: 400px;
+    height: 400px;
+    /* object-fit: cover; */
+    border-radius: 50%;
+    background-image: url("../images/profile.jpeg");
+    background-position: 58% 80%;
+    border: solid 10px rgb(252, 251, 250);
+}
+.main{
+    background-color: rgb(226, 199, 164);
+    padding: 10%;
+}

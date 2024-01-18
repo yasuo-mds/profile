@@ -5,6 +5,10 @@
     margin-left: auto;
     background-color: #FFFFFF;
 }
+body{
+    font-size: large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 p {
     text-align: center;
 }
@@ -13,7 +17,7 @@ h1 {
 }
 h2 {
     text-align: center;
-    color:dimgray;
+    /* color:dimgray; */
 }
 .img-box {
     margin:0 auto;
@@ -26,6 +30,19 @@ h2 {
     border: solid 10px rgb(252, 251, 250);
 }
 .main{
-    background-color: rgb(226, 199, 164);
+    /* background-color: rgb(226, 199, 164); */
+    border: 1px solid #666666;
     padding: 10%;
+    border-radius: 10px;
+}
+a {
+    text-decoration: none;
+    color:#20414e;
+}
+a:hover{
+    font-weight: bold;
+    text-decoration: underline;
+}
+.sp{
+    margin-right: 2em;
 }

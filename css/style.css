@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Sawarabi+Gothic');
 #wrap{
     width: 600px;
     /* border: 1px solid #666666; */
@@ -7,7 +8,15 @@
 }
 body{
     font-size: large;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Sawarabi Gothic', sans-serif;
+}
+a {
+    text-decoration: none;
+    color:#20414e;
+}
+a:hover{
+    font-weight: bold;
+    text-decoration: underline;
 }
 p {
     text-align: center;
@@ -21,28 +30,15 @@ h2 {
 }
 .img-box {
     margin:0 auto;
-    width: 400px;
-    height: 400px;
-    /* object-fit: cover; */
+    width: 320px;
+    height: 320px;
     border-radius: 50%;
     background-image: url("../images/profile.jpeg");
-    background-position: 58% 80%;
-    border: solid 10px rgb(252, 251, 250);
+    background-position: 60% 80%;
+    /* border: solid 1px rgb(252, 251, 250); */
 }
 .main{
-    /* background-color: rgb(226, 199, 164); */
     border: 1px solid #666666;
-    padding: 10%;
-    border-radius: 10px;
-}
-a {
-    text-decoration: none;
-    color:#20414e;
-}
-a:hover{
-    font-weight: bold;
-    text-decoration: underline;
-}
-.sp{
-    margin-right: 2em;
+    padding: 12%;
+    border-radius: 15px;
 }
